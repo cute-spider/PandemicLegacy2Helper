@@ -7,13 +7,25 @@
  
 </head>
 <body>
+	<div id="pageTitle">Pandemic Legacy Season 2 Helper</div>
 	<div id="cardPiles">
-		<div id="drawPile0" class="cardPile">
+		<div id="drawPiles">
+			<div id="drawPile0" class="cardPile"></div>
+			<div class="cardPileTitle">
+					Draw Pile
+			</div>
 		</div>
-		<div id="discardPile" class="cardPile">
+		<div id="discardPile" >
+			<div class="cardPileTitle">
+				Discard Pile
+			</div>
 		</div>
 	</div>
 	<button onClick="epidemic();">Epidemic Reshuffle (Step 2)</button>
+	
+	<div id="box6"></div>
+	
+	<div id="inTheBox"></div>
 
 	<script>
 		update();
